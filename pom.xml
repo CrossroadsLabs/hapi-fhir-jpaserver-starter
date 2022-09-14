@@ -715,9 +715,6 @@
                         </fileset>
                         <fileset>
                             <directory>repo</directory>
-                            <excludes>
-                                <exclude>*.jar</exclude>
-                            </excludes>
                         </fileset>
                         </filesets>
                     </configuration>
