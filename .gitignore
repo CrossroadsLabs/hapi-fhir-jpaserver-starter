@@ -17,8 +17,6 @@ target/
 # Package Files #
 *.jar
 *.war
-!repo/**/*.war
-!repo/**/*.jar
 *.nar
 *.ear
 *.zip
