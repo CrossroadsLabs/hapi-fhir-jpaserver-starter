@@ -720,18 +720,15 @@
                     <configuration>
                         <excludeDefaultDirectories>true</excludeDefaultDirectories>
                         <filesets>
-                        <!-- <fileset>
-                            <directory>target/dependency/*.jar</directory>
-                        </fileset> -->
-                        <fileset>
-                            <directory>target</directory>
-                            <excludes>
-                                <exclude>*.war</exclude>
-                            </excludes>
-                        </fileset>
-                        <fileset>
-                            <directory>repo</directory>
-                        </fileset>
+                            <!-- <fileset>
+                                <directory>target/dependency/*.jar</directory>
+                            </fileset> -->
+                            <fileset>
+                                <directory>target</directory>
+                                <excludes>
+                                    <exclude>*.war</exclude>
+                                </excludes>
+                            </fileset>
                         </filesets>
                     </configuration>
                     </execution>
