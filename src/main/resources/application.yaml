@@ -6,6 +6,8 @@ management:
       exposure:
         include: "health,prometheus"
 spring:
+  config:
+    import: optional:file:.env[.properties]
   main:
     allow-circular-references: true
     #allow-bean-definition-overriding: true
